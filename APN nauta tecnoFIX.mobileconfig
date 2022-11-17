@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>Va a instalar el perfil de configuración para añadir el APN nauta.</string>
+		</dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>AllowedProtocolMaskInDomesticRoaming</key>
+				<integer>1</integer>
+				<key>APNs</key>
+				<array>
+					<dict>
+						<key>AllowedProtocolMask</key>
+						<integer>1</integer>
+						<key>AllowedProtocolMaskInDomesticRoaming</key>
+						<integer>1</integer>
+						<key>AllowedProtocolMaskInRoaming</key>
+						<integer>1</integer>
+						<key>DefaultProtocolMask</key>
+						<integer>1</integer>
+						<key>EnableXLAT464</key>
+						<true />
+						<key>Name</key>
+						<string>nauta</string>
+					</dict>
+				</array>
+				<key>AttachAPN</key>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>nauta</string>
+				</dict>
+				<key>PayloadDisplayName</key>
+				<string>Cellular</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.cellular.4fb2d236-1eb0-45b7-b4b3-dc84299689ae</string>
+				<key>PayloadType</key>
+				<string>com.apple.cellular</string>
+				<key>PayloadUUID</key>
+				<string>5f6a11f9-b32b-4e7d-9f6e-4a026517e1bb</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Este es un perfil de configuración para agregar el APN nauta proporcionado por tecnoFIX su garaje informático.
+</string>
+		<key>PayloadDisplayName</key>
+		<string>APN nauta tecnoFIX</string>
+		<key>PayloadIdentifier</key>
+		<string>TECNOFIX-PC.bb1901a4-b74b-49d9-bddd-56a3de31ce0e</string>
+		<key>PayloadOrganization</key>
+		<string>tecnoFIX</string>
+		<key>PayloadScope</key>
+		<string>User</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>dde2129b-cc82-44b5-b30b-1f2ec945b642</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>TargetDeviceType</key>
+		<integer>1</integer>
+	</dict>
+</plist>
