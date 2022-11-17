@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>example2</string>
+		</dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>AllowedProtocolMaskInDomesticRoaming</key>
+				<integer>3</integer>
+				<key>AttachAPN</key>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>3</integer>
+					<key>Name</key>
+					<string>nauta</string>
+				</dict>
+				<key>PayloadDisplayName</key>
+				<string>Cellular</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.cellular.4fb2d236-1eb0-45b7-b4b3-dc84299689ae</string>
+				<key>PayloadType</key>
+				<string>com.apple.cellular</string>
+				<key>PayloadUUID</key>
+				<string>4fb2d236-1eb0-45b7-b4b3-dc84299689ae</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>example</string>
+		<key>PayloadDisplayName</key>
+		<string>APN nauta tecnoFIX</string>
+		<key>PayloadIdentifier</key>
+		<string>TECNOFIX-PC.bb1901a4-b74b-49d9-bddd-56a3de31ce0e</string>
+		<key>PayloadOrganization</key>
+		<string>tecnoFIX</string>
+		<key>PayloadScope</key>
+		<string>User</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>bb1901a4-b74b-49d9-bddd-56a3de31ce0e</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>TargetDeviceType</key>
+		<integer>1</integer>
+	</dict>
+</plist>
